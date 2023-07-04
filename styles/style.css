@@ -1,0 +1,30 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(253, 247, 230);
+}
+
+h1,
+h2,
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(43, 115, 73);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(43, 115, 73);
+    font-size: 18px;
+}
+
+a:active,
+a:hover {
+    color: rgb(248, 206, 150);
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
