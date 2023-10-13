@@ -1,30 +1,60 @@
+:root {
+    --bg-color: rgb(253, 247, 230);
+    --cream: rgb(248, 206, 150);
+    --green: rgb(43, 115, 73);
+}
+
 * {
     font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    background-color: rgb(253, 247, 230);
+    background-color: var(--bg-color);
+    padding: .5% 3%;
 }
 
 h1,
 h2,
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(43, 115, 73);
+    color: var(--green);
+}
+
+h1 {
+    text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: rgb(43, 115, 73);
+    color: var(--green);
     font-size: 18px;
 }
 
 a:active,
 a:hover {
-    color: rgb(248, 206, 150);
+    color: var(cream);
 }
 
 img {
+    display: block;
+    margin: 0 auto;
     height: auto;
     width: 300px;
+}
+
+main {
+    text-align: center;
+}
+
+nav li {
+    text-align: center;
+    list-style: none;
+}
+
+nav > ul {
+    padding: 0;
+}
+
+div li {
+    text-transform: lowercase;
 }
