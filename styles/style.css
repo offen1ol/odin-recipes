@@ -32,7 +32,7 @@ a {
 
 a:active,
 a:hover {
-    color: var(cream);
+    color: var(--cream);
 }
 
 img {
