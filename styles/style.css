@@ -66,6 +66,10 @@ div li {
 }
 
 /* menu page */
+.menu-title {
+    margin: 2% 0;
+}
+
 .directory {
     padding: 20px 25px;
     display: flex;
